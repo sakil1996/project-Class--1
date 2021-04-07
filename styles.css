@@ -1,3 +1,93 @@
 body{
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.hero-images{
+background: url(images/hero-images.jpg) no-repeat;
+background-size: cover;
+height: 100vh;
+position: relative;
+}
+.hero-wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+.hero-wrapper h1{
+font-size: 2.4rem;
+text-align: center;
+
+
+}
+.form-code{
+    text-align: center;
+}
+.form-code .post-code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+.form-code button{
+width: 40%;
+text-align: center;
+background-color: violet;
+color: whitesmoke;
+padding: 0.50rem;
+border: none;
+border-radius: .3rem;
+margin: 1rem auto 0rem;
+}
+.hero-wrapper span{
+margin-left: 5rem;
+margin-bottom: 1rem;
+display: inline-block;
+
+
+}
+/*prudect section start*/
+.prudect{
+
+    width: 80%;
+    margin-left: 210px;
+    margin-right:200px;
+    height: 80%;
+}
+.product-list-item{
+float: left;
+width: 25%;
+margin: 2rem;
+margin-top: 10px;
+
+}
+/*images Responsive*/
+.images-responsive{
+    max-width: 100%;
+}
+.product-list-item:first-of-type{
+margin-left: 0%;
+
+}
+#images-size{
+
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+@media screen and (max-width:700px){
+    .product-list-item{
+        float: none;
+        width: 100%;
+    }
 
 }
